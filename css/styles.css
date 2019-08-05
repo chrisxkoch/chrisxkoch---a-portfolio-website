@@ -162,16 +162,17 @@ button {
 .button__secondary {
     background-color: #CDD0D1;
     color: #171718;
-
-    .button, button {
+  }
+    
+  
+.button, button {
       /* overwrites browser defaults */
       /* resets the border */
       border: none;
-      display: inline-block;
       /* takes the font from the outer container */
       font-family: inherit;
       /* style button */
-      background-color: #357b70;
+      background-color: #e0b354;
       color: white;
       text-decoration: none;
       padding: 10px;
@@ -190,7 +191,7 @@ button {
       /* reduces the opacity of the button to 80% */
       opacity: 0.8;
     }
-}
+
 
 /* ANIMATION MODIFICATION */
 .svg-container {
